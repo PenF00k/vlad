@@ -14,15 +14,7 @@ public class Main {
         // TODO Добавить пару кошек
         // TODO Добавить 48 птиц с именами вида "Птица 1", "Птица 2"
         // TODO Проверить, что все животные правильно передвигаются и говорят
-        // TODO Вывести в цикле инфу обо всех животных вида "Чарли ходит и говорит гав"
-
-        addAnimal(new Cat("Барсик"));
-        addAnimal(new Duck("Птица 1"));
-
-        for (int i = 0; i < animals.size(); i++) {
-            Animal animal = getAnimal(i);
-            System.out.printf("%s %s и говорит \"%s\"\n", animal.getName(), animal.move(), animal.say());
-        }
+        // TODO Вывести в цикле инфу обо всех животных вида "Чарли ходит и говорит гав". Чтобу узнать, сколько элементов хранится, вызови animals.size()
     }
 
     private static void addAnimal(Animal animal) {
